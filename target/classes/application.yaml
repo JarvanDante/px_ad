@@ -1,0 +1,10 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: px
+  datasource:
+    url: jdbc:mysql://localhost:3306/px_ad
+    username: root
+    password: 654321
