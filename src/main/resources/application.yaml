@@ -20,3 +20,9 @@ spring:
 logging:
   file:
     name: logs/dev-info.log
+#  level:
+#    sql: DEBUG
+  structured:
+    format:
+      console: logstash
+      file: logstash
